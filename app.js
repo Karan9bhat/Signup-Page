@@ -54,7 +54,7 @@ app.post("/", function(req, res) {
         }
     })
 
-    console.log(firstName, lastName, email, password);
+    console.log(firstName, lastName, email);
 })
 
 app.post("/failure", function(req, res) {
