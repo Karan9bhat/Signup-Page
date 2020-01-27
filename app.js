@@ -17,7 +17,6 @@ app.post("/", function(req, res) {
     var firstName = req.body.fName;
     var lastName = req.body.lName;
     var email = req.body.email;
-    var password = req.body.password;
     var data = {
         members: [
             {
